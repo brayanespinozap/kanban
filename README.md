@@ -1,12 +1,39 @@
-# React + Vite
+# Kanban Board con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Resumen
+Este proyecto es una aplicación de tablero Kanban desarrollada con React para aprender a diseñar interfaces de usuario optimizadas. Permite organizar tareas en columnas personalizables, con un enfoque en componentes reutilizables y una experiencia de usuario fluida.
 
-Currently, two official plugins are available:
+## Instalación
+Sigue estos pasos para ejecutar el proyecto localmente:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/brayanespinozap/kanban.git
+   ```
 
-## Expanding the ESLint configuration
+2. Navega al directorio del proyecto:
+   ```bash
+   cd kanban
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+5. Abre tu navegador y visita `http://localhost:5173` (o el puerto indicado en la consola).
+
+## Tecnologías utilizadas
+- React
+- JavaScript (ES6+)
+- Vite 
+
+## Notas
+- Asegúrate de tener Node.js y npm instalados en tu sistema.
+- Este proyecto fue creado con fines de aprendizaje, pero puede extenderse con nuevas funcionalidades como persistencia de datos o autenticación.
+
